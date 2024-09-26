@@ -1,0 +1,26 @@
+<!--наследуемся от базового шаблона  -->
+{% extends "base.html" %}
+
+{% block title %}Главная{% endblock %}
+
+{% block main %}
+    <h1>Моё Хобби - РУКОДЕЛИЕ</h1>
+    <div class="info_conteiner">
+        <img src="/static/img/3.jfif" alt="">
+        <p>
+            Люблю вязать, особенно шапки
+        </p>
+    </div>
+    <div class="info_conteiner">
+        <p>
+            Моя самая большая любовь!!! Браслеты и бусы из бисера
+        </p>
+        <img src="/static/img/1.jfif" alt="">
+    </div>
+    <div class="info_conteiner">
+        <img src="/static/img/2.jfif" alt="">
+        <p>
+            Вязание крючком очень успокаивает и погружает в свои мысли
+        </p>
+    </div>
+{% endblock %}
